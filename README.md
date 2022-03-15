@@ -10,7 +10,6 @@
 ### git-push command
 -git push
 
-
 ### git-pull command
 -git pull
 
@@ -43,6 +42,24 @@ git restore --staged <file>
 -git reset --mixed HEAD~1
 ##### git uncommit permanently
 -git reset --hard
+
+### git revert //for reverting commit pushed to remote
+-git revert <commit ref no.>
+
+### git branch commands
+-git checkout <branch name>//for switching between branchs
+-git checkout -b <branch name>//for creating branch and switching at same time
+-git branch -a // for seeing all the branched
+
+### git merge command
+-git merge <branch name> //merging branch
+-git abort merge //for aborting merge
+-git revert <branch code> //for undoing merge
+
+### git conflict resolve commands
+-git diff //to log out difference
+
+
 
 
 
