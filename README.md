@@ -28,17 +28,17 @@
 
 ### git undo command
 ##### git undo changes in working directory
--git checkout -- <filename>
--git checkout .
+-git checkout -- <filename> <br/>
+-git checkout . <br/>
 -git restore <file>
 ##### git unstage
--git reset -- <filename>
--git reset .
+-git reset -- <filename> <br/>
+-git reset . <br/>
 git restore --staged <file>
 ##### git uncommit to index
 -git reset --soft HEAD~1
 ##### git uncommit to working directory
--git reset HEAD&#126;1
+-git reset HEAD&#126;1 <br/>
 -git reset --mixed HEAD~1
 ##### git uncommit permanently
 -git reset --hard
@@ -47,14 +47,14 @@ git restore --staged <file>
 -git revert <commit ref no.>
 
 ### git branch commands
--git checkout <branch name>//for switching between branchs
--git checkout -b <branch name>//for creating branch and switching at same time
--git branch -a // for seeing all the branched
+-git checkout <branch name>//for switching between branchs <br/>
+-git checkout -b <branch name>//for creating branch and switching at same time <br/>
+-git branch -a // for seeing all the branched <br/>
 -git branch -d <branch name>//delete a branch
 
 ### git merge command
--git merge <branch name> //merging branch
--git abort merge //for aborting merge
+-git merge <branch name> //merging branch <br/>
+-git abort merge //for aborting merge <br/>
 -git revert <branch code> //for undoing merge
 
 ### git conflict resolve commands
