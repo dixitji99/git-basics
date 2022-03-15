@@ -6,6 +6,14 @@
 ### git-status command
 -git status
 
+
+### git-push command
+-git push
+
+
+### git-pull command
+-git pull
+
 ### git-add command
 -git add <directory name>
 ##### for adding all files
