@@ -38,8 +38,8 @@
 git restore --staged <file>
 ##### git uncommit to index
 -git reset --soft HEAD~1
-##### git uncommit to working directory
 -git reset HEAD~1
+##### git uncommit to working directory
 -git reset --mixed HEAD~1
 ##### git uncommit permanently
 -git reset --hard
