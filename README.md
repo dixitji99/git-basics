@@ -58,11 +58,7 @@ git restore --staged <file>
 -git revert <branch code> //for undoing merge
 
 ### git conflict resolve commands
--git diff //to log out difference
-
---how are you man?
---all good?
---that's great.
+-git diff <current branch> <comparing branch>//to log out difference
 
 
 
