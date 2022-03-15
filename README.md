@@ -60,10 +60,9 @@ git restore --staged <file>
 ### git conflict resolve commands
 -git diff //to log out difference
 
-
---to check conflict
---these lines are written
-
+--how are you man?
+--all good?
+--that's great.
 
 
 
