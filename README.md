@@ -61,6 +61,8 @@ git restore --staged <file>
 -git diff //to log out difference
 
 
+--to check conflict
+--these lines are written
 
 
 
