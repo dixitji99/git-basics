@@ -50,6 +50,7 @@ git restore --staged <file>
 -git checkout <branch name>//for switching between branchs
 -git checkout -b <branch name>//for creating branch and switching at same time
 -git branch -a // for seeing all the branched
+-git branch -d <branch name>//delete a branch
 
 ### git merge command
 -git merge <branch name> //merging branch
